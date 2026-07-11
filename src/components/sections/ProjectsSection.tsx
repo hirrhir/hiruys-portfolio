@@ -8,14 +8,14 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
-export default async function ProjectsPage() {
+export default async function ProjectsSection() {
   const projects = await prisma.project.findMany({
     orderBy: { order: "asc" },
   });
 
   return (
-    <main className="max-w-3xl mx-auto px-6 py-24">
-      <h1 className="text-3xl font-semibold mb-2">Projects</h1>
+    <section id="projects" className="max-w-3xl mx-auto px-6 py-24">
+      <h2 className="text-3xl font-semibold mb-2">Projects</h2>
       <p className="text-muted-foreground mb-12">
         A selection of things I&apos;ve built.
       </p>
@@ -39,6 +39,6 @@ export default async function ProjectsPage() {
           </Card>
         ))}
       </div>
-    </main>
+    </section>
   );
 }
