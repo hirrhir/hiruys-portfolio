@@ -15,7 +15,7 @@ export default async function ProjectsSection() {
 
   return (
     <section id="projects" className="max-w-3xl mx-auto px-6 py-24">
-      <h2 className="text-3xl font-semibold mb-2">Projects</h2>
+      <h2 className="text-3xl font-semibold mb-8 text-[#FE7F2D]">Projects</h2>
       <p className="text-muted-foreground mb-12">
         A selection of things I&apos;ve built.
       </p>

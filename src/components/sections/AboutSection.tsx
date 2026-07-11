@@ -1,7 +1,7 @@
 export default function AboutSection() {
   return (
     <section id="about" className="max-w-3xl mx-auto px-6 py-24">
-      <h2 className="text-3xl font-semibold mb-8">About</h2>
+      <h2 className="text-3xl font-semibold mb-8 text-[#FE7F2D]">About</h2>
       <div className="flex flex-col gap-4 text-muted-foreground leading-relaxed">
         <p>
           I&apos;m a 3rd-year software engineering student at Addis Ababa

@@ -22,7 +22,7 @@ const skillGroups = [
 export default function SkillsSection() {
   return (
     <section id="skills" className="max-w-3xl mx-auto px-6 py-24">
-      <h2 className="text-3xl font-semibold mb-12">Skills</h2>
+      <h2 className="text-3xl font-semibold mb-8 text-[#FE7F2D]">Skills</h2>
       <div className="flex flex-col gap-8">
         {skillGroups.map((group) => (
           <div key={group.label}>
