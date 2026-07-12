@@ -11,7 +11,7 @@ async function main() {
         title: "Ambrosia",
         description:
           "A restaurant website enabling customers to browse upcoming events, make table reservations, view the menu, and submit feedback — built to give the restaurant an integrated digital presence beyond just a static site.",
-        techStack: [],
+        techStack: ["React", "CSS", "Node.js"],
         images: [],
         order: 0,
       },
@@ -19,7 +19,7 @@ async function main() {
         title: "Ambrosia 2.0",
         description:
           "A fullstack restaurant order management platform. Handles the complete order lifecycle with real-time updates, letting staff track and manage orders as they come in without manual coordination.",
-        techStack: [],
+        techStack: ["React", "Express", "Prisma", "PostgreSQL", "Socket.io"],
         images: [],
         order: 1,
       },
@@ -27,7 +27,7 @@ async function main() {
         title: "Yourtera",
         description:
           "A queue management system for government services. Users receive a virtual ticket and can track their real-time position in line, with notifications as their turn approaches — removing the need to wait in person.",
-        techStack: [],
+        techStack: ["React", "Express"],
         images: [],
         order: 2,
       },
